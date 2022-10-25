@@ -27,17 +27,17 @@ namespace MyApp
                 if(line[i-1] != line[i])
                 {
                     counter++;
-                    if(counter > max)
-                    {
-                        max = counter;
-                    }
                 }
                 else
                 {
+                    if (counter > max)
+                    {
+                        max = counter;
+                    }
                     counter = 1;
                 }
             }
-            return max;
+            return max >= counter ? max : counter;
         }
     }
 }
