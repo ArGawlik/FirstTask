@@ -9,7 +9,8 @@ namespace MyApp
         {
             foreach(string arg in args)
             {
-                Console.WriteLine(arg + "\nunequal consecutive characters count: " + CountCharacters(arg));
+                string ignoredSpaces = arg.Replace(" ", "");
+                Console.WriteLine(arg + "\nmax unequal consecutive characters count: " + CountCharacters(ignoredSpaces));
             }
         }
 

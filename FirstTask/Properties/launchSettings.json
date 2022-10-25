@@ -2,7 +2,7 @@
   "profiles": {
     "FirstTask": {
       "commandName": "Project",
-      "commandLineArgs": "\"\"\r\naa\r\nloremmes"
+      "commandLineArgs": "\"\"\r\naa\r\n\"a a\"\r\nAa"
     }
   }
 }
